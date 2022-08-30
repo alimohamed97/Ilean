@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Common.Dto\Core.Common.Dto.csproj" />
+    <ProjectReference Include="..\IKaizanCard.IEntityService\Lean.Data.IEntityService.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Auth\Application.Auth.csproj" />
+    <ProjectReference Include="..\Application.BackEnd\Application.BackEnd.csproj" />
+    <ProjectReference Include="..\Application.IBackEnd\Application.IBackEnd.csproj" />
+    <ProjectReference Include="..\Core.ICommon\Core.Common.csproj" />
+    <ProjectReference Include="..\ExceptionMiddleware.csproj\ExceptionMiddleware.csproj" />
+    <ProjectReference Include="..\IKaizanCard.IEntityService\Lean.Data.IEntityService.csproj" />
+    <ProjectReference Include="..\KaizanCard.IEntityService\Lean.Data.EntityService.csproj" />
+    <ProjectReference Include="..\Repository.Data\Repository.Data.csproj" />
+    <ProjectReference Include="..\WebToken\WebToken.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

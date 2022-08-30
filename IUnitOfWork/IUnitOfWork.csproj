@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Luftborn\IRepository.Data\IRepository.Data.csproj" />
+    <ProjectReference Include="..\Luftborn\LuftBorn.Data.Entity\LuftBorn.Data.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

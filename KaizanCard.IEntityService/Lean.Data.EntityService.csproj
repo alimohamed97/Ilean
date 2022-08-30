@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Auth\Application.Auth.csproj" />
+    <ProjectReference Include="..\IKaizanCard.IEntityService\Lean.Data.IEntityService.csproj" />
+    <ProjectReference Include="..\Repository.Data\Repository.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "DBConString": "Server=DESKTOP-GIC35LE\\WALEED;Database=Tms-Lean;MultipleActiveResultSets=true;Trusted_Connection=True"
+
+  }
+  
+  }
+

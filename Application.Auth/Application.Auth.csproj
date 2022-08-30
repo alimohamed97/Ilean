@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Common.Dto\Core.Common.Dto.csproj" />
+    <ProjectReference Include="..\Data.Auth.IEntityService\Data.Auth.EntityService.csproj" />
+    <ProjectReference Include="..\IRepository.Data\IRepository.Data.csproj" />
+    <ProjectReference Include="..\IResources\Resources.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
+  </ItemGroup>
+
+</Project>
